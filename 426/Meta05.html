@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<Style type="test/css">
+			div{
+				color:red;
+				font-size:20px;
+			}
+			.change{
+				background: pink;
+			}
+			.change1{
+				background: white;
+			}
+			
+		</Style>
+	</head>
+	<body>
+		<div id="div_02"style="width":300px;height: 300px;border: 1px solid blue"></div>
+		我是小波波<br />
+		<span>我还是小波波</span>
+		<div id="div_01"></div>
+		<form action=""method="post"></form>		
+		用户名：<input type="text" name="uName"id="uName"value=""/>
+		<br />
+		密码:<input type="password"name="uPwd"id="uPwd"value="" />
+		<br />
+		<input type="submit"value="提交" />
+		<script type="test/javascript">
+			window.onload=function(){
+				document.getElementById('div_02').onmouseover=function(){
+					this.className='change';
+					console.log('我是小波波。。。')
+				}
+				document.getElementById(div_02).onmouseout=function(){this.className="change1"}
+				
+			}
+			}
+		</script>
+		
+	</body>
+</html>
